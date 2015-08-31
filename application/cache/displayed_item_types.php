@@ -1,0 +1,81 @@
+<?php if(!class_exists('raintpl')){exit;}?><div class="page-inner col-sm-12" id="admin-content">
+       
+      <div class = "page-title">
+	<h3>Product Displayed in the Store
+	</h3>
+</div>
+<div id="main-wrapper">
+	<div class="col-lg-12 col-md-12">
+	
+	<div class="col-lg-12 col-md-12">
+		<form role="form" class="edit_store" id="edit_store_97" enctype="multipart/form-data" action="/admin/settings/97/update_general_settings" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="_method" value="patch" />
+				<input type="submit" name="commit" value="Save Changes" class="btn btn-primary pull-right" />
+				<br>
+				<br>
+				<br>
+				<div class="panel panel-white">
+  	<div class="panel-heading">
+        <h4 class="panel-title">Product Displayed in the Homepage</h4>
+    </div>
+	<div class = "panel panel-default">
+					<div class = "panel-body">
+							<div class = "col-md-12">
+							 <div class = "row">   
+							      <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1" checked="checked" name="store[active]" id="store_active" /> Featured Product</label></div>
+							    </div>
+							   
+							   <div class = "row">
+							    <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1" checked name="store[active]" id="store_active" /> Top Rated Product</label></div>
+							    </div>
+							   <div class = "row">
+							    <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1"  name="store[active]" id="store_active" /> Recommended Product</label></div>
+							    </div>
+							    <div class = "row">
+							    <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1"  name="store[active]" id="store_active" /> Top Sold Product</label></div>
+							    </div>
+							    <div class = "row">
+							    <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1"  name="store[active]" id="store_active" /> Latest Product</label></div>
+							    </div>
+							   </div>
+						</div>
+						</div>
+
+    </div>
+
+    <div class="panel panel-white">
+  	<div class="panel-heading">
+        <h4 class="panel-title">Product Displayed in the single product page</h4>
+    </div>
+	<div class = "panel panel-default">
+					<div class = "panel-body">
+
+							<div class = "col-md-12">
+							 <div class = "row">   
+							      <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1" checked="checked" name="store[active]" id="store_active" /> Related product</label></div>
+							    </div>
+							   
+							   <div class = "row">
+							    <div class="checkbox"><label for="store_active"><input name="store[active]" type="hidden" value="0" /><input type="checkbox" value="1"  name="store[active]" id="store_active" /> Customer who buy this product also brought these</label></div>
+							    </div>
+							   </div>
+
+						</div>
+						</div>
+						</div>
+
+    </div>
+</div>	
+		<div class="col-md-12">		
+			<input type="submit" name="commit" value="Save Changes" class="btn btn-primary pull-right" />
+		</div>
+</form>	</div>
+
+	</div>
+</div>
+
+    </div>  
+
+
+
+    			
+
